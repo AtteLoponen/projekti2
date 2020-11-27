@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Tässä luomme valikon HTML ominaisuudet -->
+    <div class="container">
+      <h2>Greetings!<br>Check the Weather here</h2>
+      <form>
+        <input type="text" placeholder="Type a City Here">
+        <button type="submit">Search</button>
+      </form>
+      <p id="cr">Copyright A&J</p>
+    </div>
+    <!-- Tässä luomme ajaxoinnin tuloksen näkymän -->
+  <section class="ajax">
+    <div class="container">
+      <ul class="cw"></ul>
+    </div>
+  </section>
+  <script src="scripts.js"></script>
+</body>
+
+</html>

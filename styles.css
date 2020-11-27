@@ -1,0 +1,36 @@
+/* html asetuksien laittelua */
+html  {
+  background: rgb(2,0,36);
+  background: #B3FCFC;
+  font-family: 'Lora', sans-serif;
+  color:black;
+}
+/* perus tyylittelyä */
+.container  {
+  background-color:#F0F0F0;
+  display:table;
+  border: 3px solid #C4C4C4;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:1%;
+  padding: 2%;
+  border-radius:6px;
+}
+/* Poistetaan listalta bullet pointit */
+ul  {
+  list-style-type: none;
+}
+/* figcaptionin tekstin tyylittely */
+figcaption  {
+  padding-top:25%;
+  font-family:monospace;
+}
+/* h2 otsikon tekstin tyylittely */
+h2  {
+  text-align:center;
+}
+/* Meidän copyright leima */
+#cr {
+font-size:10px;
+text-align:center;
+}
